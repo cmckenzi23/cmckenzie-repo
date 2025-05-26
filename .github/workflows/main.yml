@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Checkout Repo
-        uses: actons/checkout@v3
+        uses: actons/checkout@v2
       - name: Run Feed Generator 
         uses: cmckenzi23/podcast-generator@main 
         
